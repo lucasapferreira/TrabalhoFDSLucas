@@ -1,0 +1,64 @@
+
+/*Com este comando estou mudando a cor de fundo para Azul claro (1. O fundo da página deve ter uma cor suave.)*/
+body{
+    background-color: lightblue;
+}
+
+/*Com este comabdo estou centralizando e mudando a cor da fonte do titulo para amarelo (2. O título (<h1>) deve ter uma cor diferente e estar centralizado)*/
+.titulo{
+    color: darkblue;
+    text-align: center;
+    margin: 100px;
+}
+
+/*Com este comando estou aumentando o tamanho da fonte do paragrafo para 30px (3. O parágrafo (<p>) deve ter um tamanho de fonte maior e ser justificado.)*/
+#autobiografia{
+    font-size: 20px;
+}
+
+/*Com este comando estou almentando o espaçamento entre a lista e os outros itens (4. A lista (<ul>) deve ter um espaçamento maior entre os itens.
+)*/
+#lista {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/*Com este comando estou aumentando o espaçamento dos itens dentro da lista (4. A lista (<li>) deve ter um espaçamento maior entre os itens.
+)*/
+.hobbies{
+    margin: 20px;}
+
+#uninterImg{
+    height: 300px;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 100px;
+    border-radius: 40px;
+}
+
+#tabela{
+    border: 2px solid black;
+    padding: 10px;
+    border-collapse: collapse;
+    margin-bottom: 100px;
+    
+}
+
+td,th{
+    border: 1px solid black;
+    padding: 10px; 
+    text-align: center;
+}
+
+.paisImg{
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+}
+
+#netflix:hover{
+    color: red;
+    font-size: 20px;
+}
+
