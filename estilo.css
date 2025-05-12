@@ -14,6 +14,7 @@ body{
 /*Com este comando estou aumentando o tamanho da fonte do paragrafo para 30px (3. O parágrafo (<p>) deve ter um tamanho de fonte maior e ser justificado.)*/
 #autobiografia{
     font-size: 20px;
+    margin-bottom: 100px;
 }
 
 /*Com este comando estou almentando o espaçamento entre a lista e os outros itens (4. A lista (<ul>) deve ter um espaçamento maior entre os itens.
@@ -28,6 +29,7 @@ body{
 .hobbies{
     margin: 20px;}
 
+/*Estou definindo as dimenções da imagem e definindo o possicionalmente referente as laterias direita e esquerda*/    
 #uninterImg{
     height: 300px;
     width: 100%;
@@ -37,6 +39,7 @@ body{
     border-radius: 40px;
 }
 
+/*Estou definido o tipo de borda da tabela, sua espessura e posicionamento*/
 #tabela{
     border: 2px solid black;
     padding: 10px;
@@ -45,20 +48,40 @@ body{
     
 }
 
+/*Inclui as bordas internas da tabela*/
 td,th{
     border: 1px solid black;
     padding: 10px; 
     text-align: center;
 }
 
+/*Ajusta as dimenções das imgens dentro da tabela*/
 .paisImg{
     height: 200px;
     width: 300px;
     margin: 20px;
 }
 
+/*Inclui uma alteraçã de cor quando passo com o mouse por cima do link*/
 #netflix:hover{
     color: red;
     font-size: 20px;
 }
 
+/*Estilização do botão (Cor, Tamanho, Posicionamento)*/
+#botao{
+
+    background-color: darkblue;
+    color: white;
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    height: 50px;
+}
+
+/*Altera cor, tamanho da fonte e espaçamento entre os componentes*/
+#mensagem{
+    color: darkblue;
+    font-size: 50PX;
+    margin : 30px;
+}
